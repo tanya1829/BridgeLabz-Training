@@ -6,7 +6,7 @@ class kmsToMiles
     {
         double kilometers = double.Parse(Console.ReadLine()); 
         
-        double miles = kilometers * 0.621371;\
+        double miles = kilometers * 0.621371;
             
         Console.WriteLine(miles);
     }
