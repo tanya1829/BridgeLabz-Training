@@ -1,10 +1,8 @@
 
 using System;
-
 class celciusToFahrenheit
 {
     static void Main() 
-	
     {
         int temp = int.Parse(Console.ReadLine());
 		
@@ -12,5 +10,4 @@ class celciusToFahrenheit
 		
         Console.WriteLine(f);
     }
-	
 }
