@@ -1,4 +1,4 @@
-Welcome to my GitHub repository documenting the journey of the BridgeLabz Program (SIPP) training. This repo contains all my daily learnings, assignments, and C# coding practice categorized by each day.
+Welcome to my GitHub repository documenting the journey of the BridgeLabz Program training. This repo contains all my daily learnings, assignments, and C# coding practice categorized by each day.
 Day 1: Java Basics & git setup
 
 • C# Installation & .NET SDK Setup
