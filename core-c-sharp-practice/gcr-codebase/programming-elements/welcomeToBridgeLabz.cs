@@ -1,5 +1,4 @@
 using System;
-
 class welcomeToBridgeLabz
 {
     static void Main()
