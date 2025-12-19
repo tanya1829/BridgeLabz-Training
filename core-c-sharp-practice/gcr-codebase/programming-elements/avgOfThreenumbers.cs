@@ -1,5 +1,4 @@
 using System;
-
 class avgOfThreeNumbers
 {
     static void Main()
