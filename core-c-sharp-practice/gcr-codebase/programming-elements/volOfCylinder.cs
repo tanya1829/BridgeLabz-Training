@@ -10,7 +10,8 @@ class volOfCylinder
 		
         double h = double.Parse(inputs[1]);
 		
-        double volume = 3.14 * r * r * h;;
+        double volume = 3.14 * r * r * h;
+		
         Console.WriteLine(volume);
     }
 }
