@@ -135,3 +135,41 @@ class AnalyzeParagraph
         return c;
     }
 }
+/*  using System;
+class LibraryManagementSystem
+{
+    static void Main()
+    {
+        // storing book data
+        string[] bookTitle =
+        { 
+           "Harry Potter" ,
+           "A tale of Two Cities" ,
+           "An Era Of Darkness" ,
+           "Discovery Of India",
+           "Think And Grow Rich",
+        };
+
+        // author names storage
+         string [] bookAuthor = 
+         {
+            "J K Rowling" ,
+            "Charles Dicknes",
+            "Shashi Tharoor",
+            "Jawaharlal Nehru",
+            "Nepoleon Hill",
+
+         };
+         // to check availability of a book 
+         bool[] bookAvailable={true, false, true, false, true};
+          // displaying books
+          Console.WriteLine("Library Books : ");
+          for(int i=0; i< bookTitle.Length;i++)
+          {
+
+           Console.WriteLine ((i+1) + " . " + bookTitle[i] + " by " + bookAuthor[i] + " Status: " + (available[i] ? "Available" : "Checked Out"));
+           
+
+          }
+    }
+} */

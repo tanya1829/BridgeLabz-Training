@@ -1,7 +1,6 @@
 Welcome to my GitHub repository documenting the journey of the Capgemini training Program. This repo contains all my daily learnings, assignments, and C# coding practice categorized by each day.
 
 # Day 1: C# Basics & git setup
-
 • C# Installation & .NET SDK Setup
 
 • IDE Setup (Visual Studio / VS Code)
