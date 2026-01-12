@@ -1,33 +1,29 @@
 Welcome to my GitHub repository documenting the journey of the  training Program. This repo contains all my daily learnings, assignments, and C# coding practice categorized by each day.
 
 # Day 1: C# Basics & git setup 
-
 - C# Installation & .NET SDK Setup
 - IDE Setup (Visual Studio / VS Code)
 - Writing my first HelloWorld.cs
 - Basics of compilation and execution
 
  # Day 2: C# Fundamentals
-
 - C# DataTypes 
 - C# Operators
 - C# Access Modifiers
 - Level 1 And Level 2 Assignment Problems
 
 # Day-3 
-
 - learned some features of C#,
 - Created and executed all programs of level-2 assignment,
 - uploaded level-2 assignment on github.
 
 # Day-4 
 
-Polymorphism, encapsulation, abstraction, inheritance in C#,
+- Polymorphism, encapsulation, abstraction, inheritance in C#,
 - dotnet build and dotnet run command,
 -  C# compiler, common runtime language, just in time compiler and intermediate language in C#.
 
 # Day-5 
-
 - static class, static method, static variable and static constructor in C#,
 - learned about access modifiers in C#,
 - learned control flow statements in C#,
@@ -41,15 +37,12 @@ Polymorphism, encapsulation, abstraction, inheritance in C#,
 - Uploaded all completed control flow assignments on GitHub.
 
 # Day-7 
-
-Today's work done -
 - Arrays in C#,
 - Completed level-1 array assignment,
 - Completed level-2 array assignment,
 - Uploaded all array assignments on GitHub.
 
 # Day-8 
-
 - Methods in C#,
 -  level-1 methods assignment,
 -  level-2 methods assignment and 
@@ -57,17 +50,14 @@ Today's work done -
 - Uploaded all methods assignments on GitHub.
 
 # Day-9 
-
 - Created, executed and uploaded Snake and Ladder game in C#,
 - readonly keyword in C#.
 
 # Day-10 
-
 - const keyword in C#,
 - Difference between dotnet build and dotnet run with respect to debugging.
 
 # Day-11  
-
 - Strings in C#,
 - C# String Handling 
 - Problems on Strings - Assignment
@@ -75,7 +65,6 @@ Today's work done -
 - Extras - Common Built-In functions and Date and Time Built-in 
 
 # Day-12 
-
 - Applying logic to scenario-based questions
 - Scenario-based programs such as:
 - Paragraph fixer, (fix paragraph like trimming extra spaces, making first letter of every sentence capital, etc)
