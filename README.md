@@ -68,9 +68,11 @@ Today's work done -
 
 # Day-11  
 
-- strings in C#,
-- try and catch block in C#,
-- Completed, executed and uploaded string assignment on GitHub.
+- Strings in C#,
+- C# String Handling 
+- Problems on Strings - Assignment
+- Scenario Based Question - Snake and Ladder game
+- Extras - Common Built-In functions and Date and Time Built-in 
 
 # Day-12 
 
