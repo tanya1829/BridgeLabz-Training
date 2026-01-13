@@ -1,5 +1,6 @@
 using System;
 using System.Text;
+// removed duplicate characters using StringBuilder
 
 class RemoveDuplicatesStringBuilder{
     static void Main(){
