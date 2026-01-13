@@ -1,163 +1,84 @@
 using System;
 
-namespace LoanBuddy
+class Applicant
 {
-    // Interface
-    interface IApprovable
+    public string Name = "";
+    public int CreditScore;
+    public int Income;
+    public int LoanAmount;
+}
+
+class LoanApprovalAutomation
+{
+    public string LoanType = "";
+    public int Term;
+    public static double Interest = 0.12;
+}
+
+interface IApprovable
+{
+    void ApproveLoan();
+    void CalculateEMI();
+}
+
+class Base : IApprovable
+{
+    string loanType;
+    Applicant customer;
+    LoanApprovalAutomation application;
+
+    public Base(string loanType)
     {
-        bool ApproveLoan();
-        double CalculateEMI();
+        this.loanType = loanType;
+
+        customer = new Applicant();
+        application = new LoanApprovalAutomation(); // ✅ FIXED
+
+        Console.WriteLine("Enter Name:");
+        customer.Name = Console.ReadLine() ?? "";
+
+        Console.WriteLine("Enter Credit Score:");
+        customer.CreditScore = int.Parse(Console.ReadLine() ?? "0");
+
+        Console.WriteLine("Enter Income:");
+        customer.Income = int.Parse(Console.ReadLine() ?? "0");
+
+        Console.WriteLine("Enter Loan Amount:");
+        customer.LoanAmount = int.Parse(Console.ReadLine() ?? "0");
+
+        application.LoanType = loanType;
+
+        Console.WriteLine("Enter Loan Term (months):");
+        application.Term = int.Parse(Console.ReadLine() ?? "0");
     }
 
-    // Applicant class (Encapsulation)
-    class Applicant
+    public void ApproveLoan()
     {
-        private string name;
-        private int creditScore;
-        private double income;
-        private double loanAmount;
-
-        public Applicant(string name, int creditScore, double income, double loanAmount)
-        {
-            this.name = name;
-            this.creditScore = creditScore;
-            this.income = income;
-            this.loanAmount = loanAmount;
-        }
-
-        public string Name => name;
-        public int CreditScore => creditScore;
-        public double Income => income;
-        public double LoanAmount => loanAmount;
+        if (customer.CreditScore >= 700)
+            Console.WriteLine(loanType + " loan is APPROVED");
+        else
+            Console.WriteLine(loanType + " loan is REJECTED");
     }
 
-    // Abstract Loan class
-    abstract class LoanApplication : IApprovable
+    public void CalculateEMI()
     {
-        protected Applicant applicant;
-        protected int term; // months
-        protected double interestRate;
-        protected bool isApproved;
+        double P = customer.LoanAmount;
+        double R = LoanApprovalAutomation.Interest / 12; // ✅ FIXED
+        int N = application.Term;
 
-        protected LoanApplication(Applicant applicant, int term, double interestRate)
-        {
-            this.applicant = applicant;
-            this.term = term;
-            this.interestRate = interestRate;
-        }
+        double emi = (P * R * Math.Pow(1 + R, N)) /
+                     (Math.Pow(1 + R, N) - 1);
 
-        protected bool CheckEligibility()
-        {
-            return applicant.CreditScore >= 650 &&
-                   applicant.Income >= applicant.LoanAmount * 0.3;
-        }
-
-        public bool ApproveLoan()
-        {
-            isApproved = CheckEligibility();
-            return isApproved;
-        }
-
-        protected double CalculateEMIFormula(double principal, double rate, int months)
-        {
-            double r = rate / (12 * 100);
-            return (principal * r * Math.Pow(1 + r, months)) /
-                   (Math.Pow(1 + r, months) - 1);
-        }
-
-        public abstract double CalculateEMI();
+        Console.WriteLine("EMI for " + loanType + " loan is: " + Math.Round(emi, 2));
     }
+}
 
-    // Loan Types
-    class HomeLoan : LoanApplication
+class Utility
+{
+    public static void Main()
     {
-        public HomeLoan(Applicant applicant, int term)
-            : base(applicant, term, 8.5) { }
-
-        public override double CalculateEMI()
-        {
-            return CalculateEMIFormula(applicant.LoanAmount, interestRate, term);
-        }
-    }
-
-    class AutoLoan : LoanApplication
-    {
-        public AutoLoan(Applicant applicant, int term)
-            : base(applicant, term, 9.5) { }
-
-        public override double CalculateEMI()
-        {
-            return CalculateEMIFormula(applicant.LoanAmount, interestRate, term);
-        }
-    }
-
-    class PersonalLoan : LoanApplication
-    {
-        public PersonalLoan(Applicant applicant, int term)
-            : base(applicant, term, 12.0) { }
-
-        public override double CalculateEMI()
-        {
-            return CalculateEMIFormula(applicant.LoanAmount, interestRate, term);
-        }
-    }
-
-    // Main Program
-    class Program
-    {
-        static void Main()
-        {
-            Console.Write("Enter Name: ");
-            string name = Console.ReadLine();
-
-            Console.Write("Enter Credit Score: ");
-            int creditScore = int.Parse(Console.ReadLine());
-
-            Console.Write("Enter Monthly Income: ");
-            double income = double.Parse(Console.ReadLine());
-
-            Console.Write("Enter Loan Amount: ");
-            double loanAmount = double.Parse(Console.ReadLine());
-
-            Console.WriteLine("\nSelect Loan Type:");
-            Console.WriteLine("1. Home Loan");
-            Console.WriteLine("2. Auto Loan");
-            Console.WriteLine("3. Personal Loan");
-
-            int choice = int.Parse(Console.ReadLine());
-
-            Console.Write("Enter Loan Term (in months): ");
-            int term = int.Parse(Console.ReadLine());
-
-            Applicant applicant = new Applicant(name, creditScore, income, loanAmount);
-
-            LoanApplication loan = null;
-
-            switch (choice)
-            {
-                case 1:
-                    loan = new HomeLoan(applicant, term);
-                    break;
-                case 2:
-                    loan = new AutoLoan(applicant, term);
-                    break;
-                case 3:
-                    loan = new PersonalLoan(applicant, term);
-                    break;
-                default:
-                    Console.WriteLine("Invalid Loan Type");
-                    return;
-            }
-
-            if (loan.ApproveLoan())
-            {
-                Console.WriteLine("\nLoan Approved ");
-                Console.WriteLine("Monthly EMI: " + loan.CalculateEMI());
-            }
-            else
-            {
-                Console.WriteLine("\nLoan Rejected ");
-            }
-        }
+        Base user1 = new Base("Personal");
+        user1.ApproveLoan();
+        user1.CalculateEMI();
     }
 }
