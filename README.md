@@ -107,5 +107,60 @@ Welcome to my GitHub repository documenting the journey of the  training Program
 - Design a Bird Sanctuary System Using Inheritance and Polymorphism
 - Customer Service Call Log Manager
 
+# Day-19
+- Data Structure Introduction
+- LinkedList
+- Assignment DataStructure - LinkedList
+- Scenario Based Problem - Employee Wage
+
+# Day -20
+- Stack , Queue , HashMap and Hashing Function
+- Assignment of same topics
+- Scenario Based - Smart Home Automation System
+● Concepts: Appliance, Light, Fan, AC.
+● Interface: IControllable (TurnOn, TurnOff).
+● Polymorphism: Different behavior for turning on a Light vs AC.
+ 
+# Day-21
+- Sorting Algorithms
+- Assignment on Algorithms
+- Scenario- Based : "FitTrack – Fitness Tracker"
+● Classes: UserProfile, Workout.
+● Interface: ITrackable.
+● Types: CardioWorkout, StrengthWorkout.
+- ATM Dispenser Logic --- Context: ATM dispenses minimum number of notes.
+ 
+# Day-22
+- Linear And Binary Search
+- StringBuilder , StringBuffer , BufferReader
+- FileReader, InputStreamReader
+- Sumbission Of Assignment on same topics
+- Scenario Based : Story 1: Metal Factory Pipe Cutting
+- Story 2: Custom Furniture Manufacturing
+- Story 3 :"LoanBuddy – Loan Approval Automation"
+
+# Day-23
+- Algorithm Runtime Analysis and Big-O-Notation
+- Scenario Based : "CinemaTime – Movie Schedule Manager"
+  Story: A cinema manager wants a tool to store and update a list of movie showtimes and titles.
+  Users should be able to add, view, and search movies.
+- "BookBuddy – Digital Bookshelf App"
+Story: Users maintain a personal digital bookshelf by adding, updating, and sorting their favorite
+books by title and author.
+- Assignment On Same .
+
+# Day-25
+- Address Book System
+- Scenario Based : BrowserBuddy – Tab History Manager (Doubly Linked List + Stack)
+Story: Neha is working on a custom browser. Each open tab maintains its browsing history with
+"Back" and "Forward" operations. She uses a Doubly Linked List for history and a Stack to
+hold closed tabs for reopening. 
+
+# Day-26
+- Scenario Based :
+- TrafficManager – Roundabout Vehicle Flow Story: A smart city roundabout allows vehicles to enter and    exit dynamically. Each vehicle is a node in a Circular Linked List. A Queue manages vehicles waiting to enter.
+- BookShelf – Library Organiz Story: In a library system, books are arranged based on genre and author. A HashMap maps genre → list of books (LinkedList). Each list is dynamically updated when books are borrowed or returned.
+
+
 
 
