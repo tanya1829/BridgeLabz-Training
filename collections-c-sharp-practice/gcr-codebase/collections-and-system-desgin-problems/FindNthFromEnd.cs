@@ -1,22 +1,8 @@
-/*using System;
-class FindNthFromEnd{
-    public void findingElement(int key)
-    static void Main(){
-    List<int> num = new List<int>();
-    num.Add(1);
-    num.Add(2);
-    num.Add(3);
-    num.Add(4);
-    foreach (int n in num ){
-        Console.Write(n + " ");
-    }
-    }
-}*/
 using System;
 
-class LinkedList
+class FindNthFromEnd
 {
-    public class Node
+    class Node
     {
         public char data;
         public Node next;
@@ -28,42 +14,64 @@ class LinkedList
         }
     }
 
-    public Node head;
+    Node head;
 
-    public char FindNthFromEnd(int n)
+    // Add node at end
+    public void Add(char data)
     {
-        Node fast = head;
-        Node slow = head;
+        Node newNode = new Node(data);
 
-        // Move fast pointer n steps ahead
+        if (head == null)
+        {
+            head = newNode;
+            return;
+        }
+
+        Node temp = head;
+        while (temp.next != null)
+        {
+            temp = temp.next;
+        }
+        temp.next = newNode;
+    }
+
+    // RENAMED METHOD ✅
+    public void PrintNthFromEnd(int n)
+    {
+        Node slow = head;
+        Node fast = head;
+
+        // Move fast n steps ahead
         for (int i = 0; i < n; i++)
         {
             if (fast == null)
-                throw new Exception("N is larger than list length");
-
+            {
+                Console.WriteLine("N is greater than list length");
+                return;
+            }
             fast = fast.next;
         }
 
         // Move both pointers
         while (fast != null)
         {
-            fast = fast.next;
             slow = slow.next;
+            fast = fast.next;
         }
 
-        return slow.data;
+        Console.WriteLine("Nth element from end is: " + slow.data);
     }
 
     static void Main()
     {
-        LinkedList list = new LinkedList();
-        list.head = new Node('A');
-        list.head.next = new Node('B');
-        list.head.next.next = new Node('C');
-        list.head.next.next.next = new Node('D');
-        list.head.next.next.next.next = new Node('E');
+        FindNthFromEnd list = new FindNthFromEnd();
+        list.Add('A');
+        list.Add('B');
+        list.Add('C');
+        list.Add('D');
+        list.Add('E');
 
-        int N = 2;
-        Console.WriteLine(list.FindNthFromEnd(N));
+        int n = 2;
+        list.PrintNthFromEnd(n);
     }
 }
