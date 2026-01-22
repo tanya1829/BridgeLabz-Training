@@ -161,6 +161,44 @@ hold closed tabs for reopening.
 - TrafficManager – Roundabout Vehicle Flow Story: A smart city roundabout allows vehicles to enter and    exit dynamically. Each vehicle is a node in a Circular Linked List. A Queue manages vehicles waiting to enter.
 - BookShelf – Library Organiz Story: In a library system, books are arranged based on genre and author. A HashMap maps genre → list of books (LinkedList). Each list is dynamically updated when books are borrowed or returned.
 
+# Day-27
+- Scenario Based:
+- FlashDealz – Product Sorting by Discount (Quick Sort)
+Story: An e-commerce platform runs a flash sale with millions of products, each offering
+different discounts. Users want to see the top discounted products instantly. To quickly sort
+such large data, the backend uses Quick Sort, known for its fast average-case performance
+and efficiency.
+- : A fitness app tracks steps taken by each user in a small group (less than 20 people). At
+the end of the day, it displays rankings. Since the list is small and frequently shuffled due to
+last-minute step syncing, a simple Bubble Sort runs quickly to generate the leaderboard.
+
+# Day-28
+- C# Generics
+- Assignment on Generics
+- ParcelTracker – Delivery Chain Management (Singly Linked List)
+- ExamProctor – Online Exam Review System (Stack + HashMap +
+Functions)
+
+# Day-29
+- C# Collections
+- Assignment on Collections
+- Scenario Based :
+- Story 1: Sorting Aadhar Numbers using Radix Sort
+Context: Aadhar numbers (12-digit) need to be sorted efficiently.
+- Backtracking
+Story 1: Password Cracker Simulator
+
+# Day-30
+- Scenario Based :
+- EduResults – Rank Sheet Generator (Merge Sort)
+-  SmartCheckout – Supermarket Billing Queue (Queue + HashMap)
+Story: At a supermarket, each checkout counter maintains a Queue of customers. Each
+customer has a list of items, and a HashMap is used to fetch price and stock quickly.
+- C# Streams
+- C# Streams assignment
+
+
+
 
 
 
