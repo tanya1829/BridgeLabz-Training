@@ -197,6 +197,31 @@ customer has a list of items, and a HashMap is used to fetch price and stock qui
 - C# Streams
 - C# Streams assignment
 
+# Day-31
+- Exceptions
+- Assignment on Exceptions
+- Scenario Based : AmbulanceRoute 
+
+# Day-32
+- Regex And NUnit
+- Assignment on Regex and NUnit
+- Annotation And Reflections
+- Assignment On Annotations And Reflections
+- Code Coverage in C#
+
+# Day-32
+- Scenario Based Questions :
+- HealthCheckPro – API Metadata Validator
+- EventTracker – Auto Audit System (Annotations + Reflection + JSON)
+- MS Test
+
+# Day-33
+- CSV Data Handling
+- Assignment on CSV Data Handling
+- Scenraio Based :
+- AeroVigil Problem 
+- Validation On Bank Account Problem
+
 
 
 
