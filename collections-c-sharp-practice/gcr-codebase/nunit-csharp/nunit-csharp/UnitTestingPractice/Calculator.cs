@@ -1,5 +1,6 @@
-namespace UnitTestingPractice
+using System;
 
+namespace UnitTestingPractice
 {
     public class Calculator
     {
