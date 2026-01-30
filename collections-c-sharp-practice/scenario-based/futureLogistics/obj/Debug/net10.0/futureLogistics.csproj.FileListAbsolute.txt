@@ -1,0 +1,15 @@
+C:\Users\91905\OneDrive\Documents\Desktop\BridgeLabz-Training\collections-c-sharp-practice\scenario-based\futureLogistics\bin\Debug\net10.0\futureLogistics.exe
+C:\Users\91905\OneDrive\Documents\Desktop\BridgeLabz-Training\collections-c-sharp-practice\scenario-based\futureLogistics\bin\Debug\net10.0\futureLogistics.deps.json
+C:\Users\91905\OneDrive\Documents\Desktop\BridgeLabz-Training\collections-c-sharp-practice\scenario-based\futureLogistics\bin\Debug\net10.0\futureLogistics.runtimeconfig.json
+C:\Users\91905\OneDrive\Documents\Desktop\BridgeLabz-Training\collections-c-sharp-practice\scenario-based\futureLogistics\bin\Debug\net10.0\futureLogistics.dll
+C:\Users\91905\OneDrive\Documents\Desktop\BridgeLabz-Training\collections-c-sharp-practice\scenario-based\futureLogistics\bin\Debug\net10.0\futureLogistics.pdb
+C:\Users\91905\OneDrive\Documents\Desktop\BridgeLabz-Training\collections-c-sharp-practice\scenario-based\futureLogistics\obj\Debug\net10.0\futureLogistics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91905\OneDrive\Documents\Desktop\BridgeLabz-Training\collections-c-sharp-practice\scenario-based\futureLogistics\obj\Debug\net10.0\futureLogistics.AssemblyInfoInputs.cache
+C:\Users\91905\OneDrive\Documents\Desktop\BridgeLabz-Training\collections-c-sharp-practice\scenario-based\futureLogistics\obj\Debug\net10.0\futureLogistics.AssemblyInfo.cs
+C:\Users\91905\OneDrive\Documents\Desktop\BridgeLabz-Training\collections-c-sharp-practice\scenario-based\futureLogistics\obj\Debug\net10.0\futureLogistics.csproj.CoreCompileInputs.cache
+C:\Users\91905\OneDrive\Documents\Desktop\BridgeLabz-Training\collections-c-sharp-practice\scenario-based\futureLogistics\obj\Debug\net10.0\futureLogistics.sourcelink.json
+C:\Users\91905\OneDrive\Documents\Desktop\BridgeLabz-Training\collections-c-sharp-practice\scenario-based\futureLogistics\obj\Debug\net10.0\futureLogistics.dll
+C:\Users\91905\OneDrive\Documents\Desktop\BridgeLabz-Training\collections-c-sharp-practice\scenario-based\futureLogistics\obj\Debug\net10.0\refint\futureLogistics.dll
+C:\Users\91905\OneDrive\Documents\Desktop\BridgeLabz-Training\collections-c-sharp-practice\scenario-based\futureLogistics\obj\Debug\net10.0\futureLogistics.pdb
+C:\Users\91905\OneDrive\Documents\Desktop\BridgeLabz-Training\collections-c-sharp-practice\scenario-based\futureLogistics\obj\Debug\net10.0\futureLogistics.genruntimeconfig.cache
+C:\Users\91905\OneDrive\Documents\Desktop\BridgeLabz-Training\collections-c-sharp-practice\scenario-based\futureLogistics\obj\Debug\net10.0\ref\futureLogistics.dll
