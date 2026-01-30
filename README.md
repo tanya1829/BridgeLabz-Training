@@ -222,6 +222,16 @@ customer has a list of items, and a HashMap is used to fetch price and stock qui
 - AeroVigil Problem 
 - Validation On Bank Account Problem
 
+# Day-34
+- Scenario Based Questions:
+- StreamBuzz Problem
+- OceanFleet Problem
+- JSON Data
+
+# Day-35
+- Scenario Based Questions :
+- LexicalTwist Problem
+- FutureLogistics Problem
 
 
 
