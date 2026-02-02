@@ -233,6 +233,13 @@ customer has a list of items, and a HashMap is used to fetch price and stock qui
 - LexicalTwist Problem
 - FutureLogistics Problem
 
+# Day-36
+- Sumbmission of JSON-Data Assignment
+- Learnt About : 
+- Design Patterns
+- Design Principles
+- Multithreading 
+
 
 
 
