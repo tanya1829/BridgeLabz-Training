@@ -4,7 +4,7 @@ class MergeJson
 {
     static void Main()
     {
-        JObject obj1 = JObject.Parse("{ 'name':'Ana' }");
+        JObject obj1 = JObject.Parse("{ 'name':'Tanya' }");
         JObject obj2 = JObject.Parse("{ 'age':21 }");
 
         obj1.Merge(obj2);

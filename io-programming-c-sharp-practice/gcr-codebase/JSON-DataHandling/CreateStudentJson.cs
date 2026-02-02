@@ -7,7 +7,7 @@ class CreateStudentJson
     {
         var student = new
         {
-            name = "Ananya",
+            name = "Tanya",
             age = 21,
             subjects = new[] { "Maths", "AI", "ML" }
         };
