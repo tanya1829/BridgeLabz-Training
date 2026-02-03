@@ -240,6 +240,11 @@ customer has a list of items, and a HashMap is used to fetch price and stock qui
 - Design Principles
 - Multithreading 
 
+# Day-37
+- Scenario Based Questions :
+- Flip key Problem
+- Robot Hazard Analyser Problem
+
 
 
 
