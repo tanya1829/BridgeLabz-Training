@@ -245,6 +245,20 @@ customer has a list of items, and a HashMap is used to fetch price and stock qui
 - Flip key Problem
 - Robot Hazard Analyser Problem
 
+# Day-38
+- Multi-Threading
+- RDBMS , Normalization
+- DDL, DCL , DML with SQL Server
+- Submission Of Assignment on multi-threading
+
+# Day-39
+- MSSQL Programming Concepts
+- Scenario Based :
+- Health Care System
+
+# Day-40
+
+
 
 
 
