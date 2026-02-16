@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
+using System.Text;
+using System.Net.Http;
 
 
 namespace AddressBookSystem
@@ -19,6 +21,8 @@ namespace AddressBookSystem
 
     // UC-15 JSON file path
     private static string jsonFilePath = "AddressBook.json";
+
+    private static readonly HttpClient client=new HttpClient();
 
 
 
@@ -431,7 +435,52 @@ public void ReadContactsFromJSON()
 }
 
 
+// UC16: Send contacts to JSON Server
+public async Task WriteToJsonServer()
+{
+    string url = "http://localhost:3000/contacts"; // JSON Server URL
 
+    for (int i = 0; i < contacts.Count; i++)
+    {
+        string json = JsonSerializer.Serialize(contacts[i]);
+
+        var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+        HttpResponseMessage response = await client.PostAsync(url, content);
+
+        if (response.IsSuccessStatusCode)
+            Console.WriteLine("Contact uploaded.");
+        else
+            Console.WriteLine("Failed to upload contact.");
+    }
+}
+
+// UC16: Read contacts from JSON Server
+public async Task ReadFromJsonServer()
+{
+    string url = "http://localhost:3000/contacts";
+
+    HttpResponseMessage response = await client.GetAsync(url);
+
+    if (!response.IsSuccessStatusCode)
+    {
+        Console.WriteLine("Failed to fetch data from server.");
+        return;
+    }
+
+    string json = await response.Content.ReadAsStringAsync();
+
+    List<Contact> serverContacts = JsonSerializer.Deserialize<List<Contact>>(json);
+
+    contacts.Clear();
+
+    for (int i = 0; i < serverContacts.Count; i++)
+    {
+        contacts.Add(serverContacts[i]);
+    }
+
+    Console.WriteLine("Contacts loaded from JSON Server!");
+}
 
     }
 }

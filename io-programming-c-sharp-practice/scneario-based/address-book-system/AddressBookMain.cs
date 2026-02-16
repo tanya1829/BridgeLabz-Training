@@ -4,13 +4,13 @@ namespace AddressBookSystem
 {
     internal class AddressBookMain
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             try
             {
                 Console.WriteLine("WELCOME TO ADDRESS BOOK SYSTEM ---> ");
                 AddressBookMenu menu = new AddressBookMenu();
-                menu.ShowMenu();
+                await menu.ShowMenu();
             }
             catch (Exception ex) // catches unexpected crash
             {

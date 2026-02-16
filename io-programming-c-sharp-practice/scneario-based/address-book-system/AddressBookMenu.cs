@@ -4,7 +4,7 @@ namespace AddressBookSystem
 {
     internal class AddressBookMenu
     {
-        public void ShowMenu()
+        public async Task ShowMenu()
         {
             AddressBookUtility currentBook = null;
 
@@ -34,7 +34,9 @@ namespace AddressBookSystem
                     Console.WriteLine("17. Read contacts from CSV");  //UC-14
                     Console.WriteLine("18. Save contacts as JSON");    //UC-15
                     Console.WriteLine("19. Load contacts from JSON");  //UC-15
-                    Console.WriteLine("20. Exit");
+                    Console.WriteLine("20. Write contacts to JSON Server");  // UC-16
+                    Console.WriteLine("21. Read contacts from JSON Server");  // UC-16
+                    Console.WriteLine("22. Exit");
                     Console.Write("Enter your choice: ");
 
                     string choice = Console.ReadLine();
@@ -134,8 +136,22 @@ namespace AddressBookSystem
                             else Console.WriteLine("Please select an address book first!");
                             break;
 
+                            case "20":
+                            if (currentBook != null)
+                            await currentBook.WriteToJsonServer();
+                            else
+                            Console.WriteLine("Please select an address book first!");
+                            break;
 
-                           case "20":
+                            case "21":
+                            if (currentBook != null)
+                            await currentBook.ReadFromJsonServer();
+                            else
+                           Console.WriteLine("Please select an address book first!");
+                            break;
+
+
+                           case "22":
                             Console.WriteLine("Exiting Address Book System...");
                             return;
 
