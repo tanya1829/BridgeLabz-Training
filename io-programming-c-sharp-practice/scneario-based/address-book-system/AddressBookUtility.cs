@@ -482,5 +482,73 @@ public async Task ReadFromJsonServer()
     Console.WriteLine("Contacts loaded from JSON Server!");
 }
 
+// UC17: Async Write to File (Non-Blocking)
+public async Task WriteContactsToFileAsync()
+{
+    await Task.Run(() =>
+    {
+        //Thread.Sleep(5000); // simulate slow IO (5 seconds)
+        WriteContactsToFile();   // reuse existing method
+    });
+
+    Console.WriteLine("Async File Write Completed!");
+}
+
+// UC17: Async Read from File (Non-Blocking)
+public async Task ReadContactsFromFileAsync()
+{
+    await Task.Run(() =>
+    {
+        ReadContactsFromFile();
+    });
+
+    Console.WriteLine("Async File Read Completed!");
+}
+
+// UC17: Async CSV Write
+public async Task WriteContactsToCSVAsync()
+{
+    await Task.Run(() =>
+    {
+        WriteContactsToCSV();
+    });
+
+    Console.WriteLine("Async CSV Write Completed!");
+}
+
+// UC17: Async CSV Read
+public async Task ReadContactsFromCSVAsync()
+{
+    await Task.Run(() =>
+    {
+        ReadContactsFromCSV();
+    });
+
+    Console.WriteLine("Async CSV Read Completed!");
+}
+
+// UC17: Async JSON Write
+public async Task WriteContactsToJSONAsync()
+{
+    await Task.Run(() =>
+    {
+        WriteContactsToJSON();
+    });
+
+    Console.WriteLine("Async JSON Write Completed!");
+}
+
+// UC17: Async JSON Read
+public async Task ReadContactsFromJSONAsync()
+{
+    await Task.Run(() =>
+    {
+        ReadContactsFromJSON();
+    });
+
+    Console.WriteLine("Async JSON Read Completed!");
+}
+
+
     }
 }

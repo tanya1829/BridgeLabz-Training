@@ -36,7 +36,14 @@ namespace AddressBookSystem
                     Console.WriteLine("19. Load contacts from JSON");  //UC-15
                     Console.WriteLine("20. Write contacts to JSON Server");  // UC-16
                     Console.WriteLine("21. Read contacts from JSON Server");  // UC-16
-                    Console.WriteLine("22. Exit");
+                    Console.WriteLine("22. Async Write to File");
+                    Console.WriteLine("23. Async Read from File");
+                    Console.WriteLine("24. Async Write to CSV");
+                    Console.WriteLine("25. Async Read from CSV");
+                    Console.WriteLine("26. Async Write to JSON");
+                    Console.WriteLine("27. Async Read from JSON");
+
+                    Console.WriteLine("28. Exit");
                     Console.Write("Enter your choice: ");
 
                     string choice = Console.ReadLine();
@@ -116,46 +123,83 @@ namespace AddressBookSystem
                             else Console.WriteLine("Please select an address book first!");
                             break;
 
-                            case "16":
+                        case "16":
                             if (currentBook != null) currentBook.WriteContactsToCSV();
                             else Console.WriteLine("Please select an address book first!");
                             break;
 
-                            case "17":
+                        case "17":
                             if (currentBook != null) currentBook.ReadContactsFromCSV();
                             else Console.WriteLine("Please select an address book first!");
                             break;
 
-                            case "18":
+                        case "18":
                             if (currentBook != null) currentBook.WriteContactsToJSON();
                             else Console.WriteLine("Please select an address book first!");
                             break;
 
-                            case "19":
+                        case "19":
                             if (currentBook != null) currentBook.ReadContactsFromJSON();
                             else Console.WriteLine("Please select an address book first!");
                             break;
 
-                            case "20":
+                        case "20":
                             if (currentBook != null)
-                            await currentBook.WriteToJsonServer();
+                                await currentBook.WriteToJsonServer();
                             else
-                            Console.WriteLine("Please select an address book first!");
+                                Console.WriteLine("Please select an address book first!");
                             break;
 
-                            case "21":
+                        case "21":
                             if (currentBook != null)
-                            await currentBook.ReadFromJsonServer();
+                                await currentBook.ReadFromJsonServer();
                             else
-                           Console.WriteLine("Please select an address book first!");
+                                Console.WriteLine("Please select an address book first!");
                             break;
 
 
-                           case "22":
+                        case "22":
+                            if (currentBook != null)
+                                await currentBook.WriteContactsToFileAsync();
+                            else Console.WriteLine("Select address book first!");
+                            break;
+
+                        case "23":
+                            if (currentBook != null)
+                                await currentBook.ReadContactsFromFileAsync();
+                            else Console.WriteLine("Select address book first!");
+                            break;
+
+                        case "24":
+                            if (currentBook != null)
+                                await currentBook.WriteContactsToCSVAsync();
+                            else Console.WriteLine("Select address book first!");
+                            break;
+
+                        case "25":
+                            if (currentBook != null)
+                                await currentBook.ReadContactsFromCSVAsync();
+                            else Console.WriteLine("Select address book first!");
+                            break;
+
+                        case "26":
+                            if (currentBook != null)
+                                await currentBook.WriteContactsToJSONAsync();
+                            else Console.WriteLine("Select address book first!");
+                            break;
+
+                        case "27":
+                            if (currentBook != null)
+                                await currentBook.ReadContactsFromJSONAsync();
+                            else Console.WriteLine("Select address book first!");
+                            break;
+
+                             case "28":
                             Console.WriteLine("Exiting Address Book System...");
                             return;
 
-                          default:
+
+                        default:
                             Console.WriteLine("Invalid choice! Try again.");
                             break;
                     }
