@@ -1,0 +1,96 @@
+{
+  "scannerProperties": [
+    {
+      "key": "sonar.scanner.app",
+      "value": "ScannerMSBuild"
+    },
+    {
+      "key": "sonar.scanner.appVersion",
+      "value": "11.1"
+    },
+    {
+      "key": "sonar.scanner.bootstrapStartTime",
+      "value": "1771484080000"
+    },
+    {
+      "key": "sonar.projectKey",
+      "value": "address-book-system"
+    },
+    {
+      "key": "sonar.working.directory",
+      "value": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\io-programming-c-sharp-practice\\scneario-based\\address-book-system\\.sonarqube\\out\\.sonar"
+    },
+    {
+      "key": "sonar.projectBaseDir",
+      "value": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\io-programming-c-sharp-practice\\scneario-based\\address-book-system"
+    },
+    {
+      "key": "sonar.pullrequest.cache.basepath",
+      "value": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\io-programming-c-sharp-practice\\scneario-based\\address-book-system"
+    },
+    {
+      "key": "sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "sonar.modules",
+      "value": "B7355D92-9DD4-4415-B815-96B34EB84EC7"
+    },
+    {
+      "key": "B7355D92-9DD4-4415-B815-96B34EB84EC7.sonar.projectKey",
+      "value": "address-book-system:B7355D92-9DD4-4415-B815-96B34EB84EC7"
+    },
+    {
+      "key": "B7355D92-9DD4-4415-B815-96B34EB84EC7.sonar.projectName",
+      "value": "address-book-system"
+    },
+    {
+      "key": "B7355D92-9DD4-4415-B815-96B34EB84EC7.sonar.projectBaseDir",
+      "value": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\io-programming-c-sharp-practice\\scneario-based\\address-book-system"
+    },
+    {
+      "key": "B7355D92-9DD4-4415-B815-96B34EB84EC7.sonar.working.directory",
+      "value": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\io-programming-c-sharp-practice\\scneario-based\\address-book-system\\.sonarqube\\out\\.sonar\\mod0"
+    },
+    {
+      "key": "B7355D92-9DD4-4415-B815-96B34EB84EC7.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "B7355D92-9DD4-4415-B815-96B34EB84EC7.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "B7355D92-9DD4-4415-B815-96B34EB84EC7.sonar.sources",
+      "value": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\io-programming-c-sharp-practice\\scneario-based\\address-book-system\\AddressBookExceptions.cs,C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\io-programming-c-sharp-practice\\scneario-based\\address-book-system\\AddressBookMain.cs,C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\io-programming-c-sharp-practice\\scneario-based\\address-book-system\\AddressBookMenu.cs,C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\io-programming-c-sharp-practice\\scneario-based\\address-book-system\\AddressBookUtility.cs,C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\io-programming-c-sharp-practice\\scneario-based\\address-book-system\\Contact.cs,C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\io-programming-c-sharp-practice\\scneario-based\\address-book-system\\IAddressBook.cs,C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\io-programming-c-sharp-practice\\scneario-based\\address-book-system\\db.json,C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\io-programming-c-sharp-practice\\scneario-based\\address-book-system\\obj\\address-book-system.csproj.nuget.dgspec.json,C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\io-programming-c-sharp-practice\\scneario-based\\address-book-system\\obj\\project.assets.json,C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\io-programming-c-sharp-practice\\scneario-based\\address-book-system\\bin\\Debug\\net10.0\\address-book-system.deps.json,C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\io-programming-c-sharp-practice\\scneario-based\\address-book-system\\bin\\Debug\\net10.0\\address-book-system.runtimeconfig.json,C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\io-programming-c-sharp-practice\\scneario-based\\address-book-system\\obj\\Debug\\net10.0\\address-book-system.sourcelink.json"
+    },
+    {
+      "key": "B7355D92-9DD4-4415-B815-96B34EB84EC7.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\io-programming-c-sharp-practice\\scneario-based\\address-book-system\\.sonarqube\\out\\0"
+    },
+    {
+      "key": "B7355D92-9DD4-4415-B815-96B34EB84EC7.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\io-programming-c-sharp-practice\\scneario-based\\address-book-system\\.sonarqube\\out\\0\\Issues.json"
+    },
+    {
+      "key": "B7355D92-9DD4-4415-B815-96B34EB84EC7.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\io-programming-c-sharp-practice\\scneario-based\\address-book-system\\.sonarqube\\out\\0\\Telemetry.json"
+    },
+    {
+      "key": "sonar.login",
+      "value": "***"
+    },
+    {
+      "key": "sonar.host.url",
+      "value": "http://localhost:9000"
+    },
+    {
+      "key": "sonar.visualstudio.enable",
+      "value": "false"
+    }
+  ]
+}

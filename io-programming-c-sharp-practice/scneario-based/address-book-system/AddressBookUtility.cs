@@ -8,7 +8,7 @@ using System.Net.Http;
 
 namespace AddressBookSystem
 {
-    internal class AddressBookUtility : IAddressBook
+    public class AddressBookUtility : IAddressBook
     {
         // UC-2: List instead of array
         private List<Contact> contacts = new List<Contact>();
@@ -548,7 +548,34 @@ public async Task ReadContactsFromJSONAsync()
 
     Console.WriteLine("Async JSON Read Completed!");
 }
+     //  TEST HELPER METHODS
+
+// Add contact without console
+public void AddContactDirect(Contact c)
+{
+    contacts.Add(c);
+}
+
+// Delete contact without console
+public void DeleteContactDirect(string fullName)
+{
+    contacts.RemoveAll(c => c.GetFullName() == fullName);
+}
+
+// Get total contacts
+public int GetContactCount()
+{
+    return contacts.Count;
+}
+
+// Count contacts by city
+public int CountByCity(string city)
+{
+    return contacts.FindAll(c => c.City == city).Count;
+}
+
 
 
     }
+
 }

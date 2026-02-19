@@ -1,0 +1,10 @@
+£
+ôC:\Users\91905\OneDrive\Documents\Desktop\BridgeLabz-Training\io-programming-c-sharp-practice\scneario-based\address-book-system\AddressBookExceptions.csutf-8ù
+ìC:\Users\91905\OneDrive\Documents\Desktop\BridgeLabz-Training\io-programming-c-sharp-practice\scneario-based\address-book-system\AddressBookMain.csutf-8ù
+ìC:\Users\91905\OneDrive\Documents\Desktop\BridgeLabz-Training\io-programming-c-sharp-practice\scneario-based\address-book-system\AddressBookMenu.csutf-8†
+ñC:\Users\91905\OneDrive\Documents\Desktop\BridgeLabz-Training\io-programming-c-sharp-practice\scneario-based\address-book-system\AddressBookUtility.csutf-8ï
+ãC:\Users\91905\OneDrive\Documents\Desktop\BridgeLabz-Training\io-programming-c-sharp-practice\scneario-based\address-book-system\Contact.csutf-8ö
+êC:\Users\91905\OneDrive\Documents\Desktop\BridgeLabz-Training\io-programming-c-sharp-practice\scneario-based\address-book-system\IAddressBook.csutf-8ƒ
+∏C:\Users\91905\OneDrive\Documents\Desktop\BridgeLabz-Training\io-programming-c-sharp-practice\scneario-based\address-book-system\obj\Debug\net10.0\address-book-system.GlobalUsings.g.csutf-8Œ
+¬C:\Users\91905\OneDrive\Documents\Desktop\BridgeLabz-Training\io-programming-c-sharp-practice\scneario-based\address-book-system\obj\Debug\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.csutf-8¬
+∂C:\Users\91905\OneDrive\Documents\Desktop\BridgeLabz-Training\io-programming-c-sharp-practice\scneario-based\address-book-system\obj\Debug\net10.0\address-book-system.AssemblyInfo.csutf-8
