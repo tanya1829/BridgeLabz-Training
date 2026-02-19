@@ -257,6 +257,31 @@ customer has a list of items, and a HashMap is used to fetch price and stock qui
 - Health Care System
 
 # Day-40
+- Submission of DBMS
+- Scenario Based Question : 
+- NotifyHub
+
+# Day -41
+- Project : 
+- Email Validator - College Admission Project
+-  Some more Scenario Based Questions on Advanced DSA
+
+# Day-42
+- Scenario Based question :
+- Bank Transaction System
+- Some Theory Questions
+
+# Day-43 
+- ASP .NET Core basics
+- Project :
+- Intro to : Quantity Measurement App
+ 
+# Day-44
+- M1 Mock Test
+
+# Day-45
+- ORM Entity Framework
+- Submission of Assignment on WebAPI
 
 
 
