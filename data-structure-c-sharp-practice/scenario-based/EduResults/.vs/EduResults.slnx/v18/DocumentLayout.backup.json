@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\91905\\source\\repos\\EduResults\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26B9BBA9-95B4-4B6A-8B61-8A2C505767AB}|EduResults\\EduResults.csproj|c:\\users\\91905\\source\\repos\\eduresults\\eduresults\\iresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26B9BBA9-95B4-4B6A-8B61-8A2C505767AB}|EduResults\\EduResults.csproj|solutionrelative:eduresults\\iresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26B9BBA9-95B4-4B6A-8B61-8A2C505767AB}|EduResults\\EduResults.csproj|c:\\users\\91905\\source\\repos\\eduresults\\eduresults\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26B9BBA9-95B4-4B6A-8B61-8A2C505767AB}|EduResults\\EduResults.csproj|solutionrelative:eduresults\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26B9BBA9-95B4-4B6A-8B61-8A2C505767AB}|EduResults\\EduResults.csproj|c:\\users\\91905\\source\\repos\\eduresults\\eduresults\\resultmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26B9BBA9-95B4-4B6A-8B61-8A2C505767AB}|EduResults\\EduResults.csproj|solutionrelative:eduresults\\resultmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26B9BBA9-95B4-4B6A-8B61-8A2C505767AB}|EduResults\\EduResults.csproj|c:\\users\\91905\\source\\repos\\eduresults\\eduresults\\resultmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26B9BBA9-95B4-4B6A-8B61-8A2C505767AB}|EduResults\\EduResults.csproj|solutionrelative:eduresults\\resultmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26B9BBA9-95B4-4B6A-8B61-8A2C505767AB}|EduResults\\EduResults.csproj|c:\\users\\91905\\source\\repos\\eduresults\\eduresults\\resultutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26B9BBA9-95B4-4B6A-8B61-8A2C505767AB}|EduResults\\EduResults.csproj|solutionrelative:eduresults\\resultutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResultUtility.cs",
+              "DocumentMoniker": "C:\\Users\\91905\\source\\repos\\EduResults\\EduResults\\ResultUtility.cs",
+              "RelativeDocumentMoniker": "EduResults\\ResultUtility.cs",
+              "ToolTip": "C:\\Users\\91905\\source\\repos\\EduResults\\EduResults\\ResultUtility.cs",
+              "RelativeToolTip": "EduResults\\ResultUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T10:54:22.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResultMenu.cs",
+              "DocumentMoniker": "C:\\Users\\91905\\source\\repos\\EduResults\\EduResults\\ResultMenu.cs",
+              "RelativeDocumentMoniker": "EduResults\\ResultMenu.cs",
+              "ToolTip": "C:\\Users\\91905\\source\\repos\\EduResults\\EduResults\\ResultMenu.cs",
+              "RelativeToolTip": "EduResults\\ResultMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T10:53:58.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResultMain.cs",
+              "DocumentMoniker": "C:\\Users\\91905\\source\\repos\\EduResults\\EduResults\\ResultMain.cs",
+              "RelativeDocumentMoniker": "EduResults\\ResultMain.cs",
+              "ToolTip": "C:\\Users\\91905\\source\\repos\\EduResults\\EduResults\\ResultMain.cs",
+              "RelativeToolTip": "EduResults\\ResultMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T10:53:44.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\91905\\source\\repos\\EduResults\\EduResults\\Result.cs",
+              "RelativeDocumentMoniker": "EduResults\\Result.cs",
+              "ToolTip": "C:\\Users\\91905\\source\\repos\\EduResults\\EduResults\\Result.cs",
+              "RelativeToolTip": "EduResults\\Result.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T10:53:22.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IResult.cs",
+              "DocumentMoniker": "C:\\Users\\91905\\source\\repos\\EduResults\\EduResults\\IResult.cs",
+              "RelativeDocumentMoniker": "EduResults\\IResult.cs",
+              "ToolTip": "C:\\Users\\91905\\source\\repos\\EduResults\\EduResults\\IResult.cs",
+              "RelativeToolTip": "EduResults\\IResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T10:53:12.489Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
