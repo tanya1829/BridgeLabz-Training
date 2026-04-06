@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="address-book-system/address-book-system.csproj" />
+  <Project Path="AddressBookSystem.Tests/AddressBookSystem.Tests.csproj" />
+</Solution>
