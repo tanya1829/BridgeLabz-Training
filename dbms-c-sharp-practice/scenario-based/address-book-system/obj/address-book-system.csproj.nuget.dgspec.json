@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\dbms-c-sharp-practice\\scenario-based\\address-book-system\\address-book-system.csproj": {}
+    "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\Refresher-Training\\dbms-c-sharp-practice\\scenario-based\\address-book-system\\address-book-system.csproj": {}
   },
   "projects": {
-    "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\dbms-c-sharp-practice\\scenario-based\\address-book-system\\address-book-system.csproj": {
+    "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\Refresher-Training\\dbms-c-sharp-practice\\scenario-based\\address-book-system\\address-book-system.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\dbms-c-sharp-practice\\scenario-based\\address-book-system\\address-book-system.csproj",
+        "projectUniqueName": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\Refresher-Training\\dbms-c-sharp-practice\\scenario-based\\address-book-system\\address-book-system.csproj",
         "projectName": "address-book-system",
-        "projectPath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\dbms-c-sharp-practice\\scenario-based\\address-book-system\\address-book-system.csproj",
+        "projectPath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\Refresher-Training\\dbms-c-sharp-practice\\scenario-based\\address-book-system\\address-book-system.csproj",
         "packagesPath": "C:\\Users\\91905\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\dbms-c-sharp-practice\\scenario-based\\address-book-system\\obj\\",
+        "outputPath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\Refresher-Training\\dbms-c-sharp-practice\\scenario-based\\address-book-system\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\91905\\AppData\\Roaming\\NuGet\\NuGet.Config",

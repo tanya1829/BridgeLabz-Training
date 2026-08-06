@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\collections-c-sharp-practice\\scenario-based\\event-tracker\\event-tracker.csproj",
+      "projectUniqueName": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\Refresher-Training\\collections-c-sharp-practice\\scenario-based\\event-tracker\\event-tracker.csproj",
       "projectName": "event-tracker",
-      "projectPath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\collections-c-sharp-practice\\scenario-based\\event-tracker\\event-tracker.csproj",
+      "projectPath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\Refresher-Training\\collections-c-sharp-practice\\scenario-based\\event-tracker\\event-tracker.csproj",
       "packagesPath": "C:\\Users\\91905\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\collections-c-sharp-practice\\scenario-based\\event-tracker\\obj\\",
+      "outputPath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\Refresher-Training\\collections-c-sharp-practice\\scenario-based\\event-tracker\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\91905\\AppData\\Roaming\\NuGet\\NuGet.Config",

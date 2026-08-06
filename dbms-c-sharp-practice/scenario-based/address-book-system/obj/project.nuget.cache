@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1GzudDdHV5Y=",
+  "dgSpecHash": "cNS/MOx452Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\dbms-c-sharp-practice\\scenario-based\\address-book-system\\address-book-system.csproj",
+  "projectFilePath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\Refresher-Training\\dbms-c-sharp-practice\\scenario-based\\address-book-system\\address-book-system.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\91905\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\91905\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

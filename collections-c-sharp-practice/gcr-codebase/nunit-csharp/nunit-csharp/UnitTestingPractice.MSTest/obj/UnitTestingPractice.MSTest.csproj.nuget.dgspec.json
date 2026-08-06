@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\collections-c-sharp-practice\\gcr-codebase\\nunit-csharp\\nunit-csharp\\UnitTestingPractice.MSTest\\UnitTestingPractice.MSTest.csproj": {}
+    "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\Refresher-Training\\collections-c-sharp-practice\\gcr-codebase\\nunit-csharp\\nunit-csharp\\UnitTestingPractice.MSTest\\UnitTestingPractice.MSTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\collections-c-sharp-practice\\gcr-codebase\\nunit-csharp\\nunit-csharp\\UnitTestingPractice.MSTest\\UnitTestingPractice.MSTest.csproj": {
+    "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\Refresher-Training\\collections-c-sharp-practice\\gcr-codebase\\nunit-csharp\\nunit-csharp\\UnitTestingPractice.MSTest\\UnitTestingPractice.MSTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\collections-c-sharp-practice\\gcr-codebase\\nunit-csharp\\nunit-csharp\\UnitTestingPractice.MSTest\\UnitTestingPractice.MSTest.csproj",
+        "projectUniqueName": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\Refresher-Training\\collections-c-sharp-practice\\gcr-codebase\\nunit-csharp\\nunit-csharp\\UnitTestingPractice.MSTest\\UnitTestingPractice.MSTest.csproj",
         "projectName": "UnitTestingPractice.MSTest",
-        "projectPath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\collections-c-sharp-practice\\gcr-codebase\\nunit-csharp\\nunit-csharp\\UnitTestingPractice.MSTest\\UnitTestingPractice.MSTest.csproj",
+        "projectPath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\Refresher-Training\\collections-c-sharp-practice\\gcr-codebase\\nunit-csharp\\nunit-csharp\\UnitTestingPractice.MSTest\\UnitTestingPractice.MSTest.csproj",
         "packagesPath": "C:\\Users\\91905\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\collections-c-sharp-practice\\gcr-codebase\\nunit-csharp\\nunit-csharp\\UnitTestingPractice.MSTest\\obj\\",
+        "outputPath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\Refresher-Training\\collections-c-sharp-practice\\gcr-codebase\\nunit-csharp\\nunit-csharp\\UnitTestingPractice.MSTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\91905\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\collections-c-sharp-practice\\gcr-codebase\\nunit-csharp\\nunit-csharp\\UnitTestingPractice\\UnitTestingPractice.csproj": {
-                "projectPath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\collections-c-sharp-practice\\gcr-codebase\\nunit-csharp\\nunit-csharp\\UnitTestingPractice\\UnitTestingPractice.csproj"
+              "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\Refresher-Training\\collections-c-sharp-practice\\gcr-codebase\\nunit-csharp\\nunit-csharp\\UnitTestingPractice\\UnitTestingPractice.csproj": {
+                "projectPath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\Refresher-Training\\collections-c-sharp-practice\\gcr-codebase\\nunit-csharp\\nunit-csharp\\UnitTestingPractice\\UnitTestingPractice.csproj"
               }
             }
           }
@@ -349,14 +349,14 @@
         }
       }
     },
-    "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\collections-c-sharp-practice\\gcr-codebase\\nunit-csharp\\nunit-csharp\\UnitTestingPractice\\UnitTestingPractice.csproj": {
+    "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\Refresher-Training\\collections-c-sharp-practice\\gcr-codebase\\nunit-csharp\\nunit-csharp\\UnitTestingPractice\\UnitTestingPractice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\collections-c-sharp-practice\\gcr-codebase\\nunit-csharp\\nunit-csharp\\UnitTestingPractice\\UnitTestingPractice.csproj",
+        "projectUniqueName": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\Refresher-Training\\collections-c-sharp-practice\\gcr-codebase\\nunit-csharp\\nunit-csharp\\UnitTestingPractice\\UnitTestingPractice.csproj",
         "projectName": "UnitTestingPractice",
-        "projectPath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\collections-c-sharp-practice\\gcr-codebase\\nunit-csharp\\nunit-csharp\\UnitTestingPractice\\UnitTestingPractice.csproj",
+        "projectPath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\Refresher-Training\\collections-c-sharp-practice\\gcr-codebase\\nunit-csharp\\nunit-csharp\\UnitTestingPractice\\UnitTestingPractice.csproj",
         "packagesPath": "C:\\Users\\91905\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\collections-c-sharp-practice\\gcr-codebase\\nunit-csharp\\nunit-csharp\\UnitTestingPractice\\obj\\",
+        "outputPath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\Refresher-Training\\collections-c-sharp-practice\\gcr-codebase\\nunit-csharp\\nunit-csharp\\UnitTestingPractice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\91905\\AppData\\Roaming\\NuGet\\NuGet.Config",

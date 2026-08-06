@@ -1331,11 +1331,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\DBConnect\\DBConnect.csproj",
+      "projectUniqueName": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\Refresher-Training\\io-programming-c-sharp-practice\\scneario-based\\DBConnect\\DBConnect.csproj",
       "projectName": "DBConnect",
-      "projectPath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\DBConnect\\DBConnect.csproj",
+      "projectPath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\Refresher-Training\\io-programming-c-sharp-practice\\scneario-based\\DBConnect\\DBConnect.csproj",
       "packagesPath": "C:\\Users\\91905\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\DBConnect\\obj\\",
+      "outputPath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\Refresher-Training\\io-programming-c-sharp-practice\\scneario-based\\DBConnect\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\91905\\AppData\\Roaming\\NuGet\\NuGet.Config",

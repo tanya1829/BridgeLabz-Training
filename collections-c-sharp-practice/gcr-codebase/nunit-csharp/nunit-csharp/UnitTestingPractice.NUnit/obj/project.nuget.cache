@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a3hzNB+4nFE=",
+  "dgSpecHash": "JUgC+sooIgM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\BridgeLabz-Training\\collections-c-sharp-practice\\gcr-codebase\\nunit-csharp\\nunit-csharp\\UnitTestingPractice.NUnit\\UnitTestingPractice.NUnit.csproj",
+  "projectFilePath": "C:\\Users\\91905\\OneDrive\\Documents\\Desktop\\Refresher-Training\\collections-c-sharp-practice\\gcr-codebase\\nunit-csharp\\nunit-csharp\\UnitTestingPractice.NUnit\\UnitTestingPractice.NUnit.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\91905\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",
     "C:\\Users\\91905\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
