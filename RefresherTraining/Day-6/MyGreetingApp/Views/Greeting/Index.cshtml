@@ -1,0 +1,41 @@
+@{
+    ViewData["Title"] = "My Greetings App";
+    string timeOfDay = ViewBag.TimeOfDay ?? "morning";
+}
+
+<div class="greeting-page theme-@timeOfDay">
+    <div class="greeting-card">
+        <div class="greeting-icon">
+            @if (timeOfDay == "morning")
+            {
+                <span>&#9728;&#65039;</span>
+            }
+            else if (timeOfDay == "afternoon")
+            {
+                <span>&#127774;&#65039;</span>
+            }
+            else
+            {
+                <span>&#127769;&#65039;</span>
+            }
+        </div>
+
+        <h1>My Greetings App</h1>
+        <p class="subtitle">Tell us your name and get a personalized greeting</p>
+
+        <form method="post" asp-controller="Greeting" asp-action="Index" class="greeting-form">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required />
+            </div>
+            <button type="submit">Get Greeting</button>
+        </form>
+
+        @if (ViewBag.Greeting != null)
+        {
+            <div class="greeting-result">
+                <h2>@ViewBag.Greeting</h2>
+            </div>
+        }
+    </div>
+</div>

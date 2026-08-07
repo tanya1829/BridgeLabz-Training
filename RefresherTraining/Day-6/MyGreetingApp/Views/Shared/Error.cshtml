@@ -1,0 +1,16 @@
+@model MyGreetingApp.Models.ErrorViewModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<div class="greeting-page theme-evening">
+    <div class="greeting-card">
+        <h1>Something went wrong</h1>
+        <p class="subtitle">An error occurred while processing your request.</p>
+        @if (Model.ShowRequestId)
+        {
+            <p><strong>Request ID:</strong> @Model.RequestId</p>
+        }
+        <a href="/" style="color:#fff; text-decoration:underline;">Go back home</a>
+    </div>
+</div>
