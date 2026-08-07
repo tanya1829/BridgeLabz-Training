@@ -114,6 +114,27 @@ Built a console-based Health Clinic App on top of the `HealthCare` SQL Server da
 
 
 
+# Day 5 – ASP.NET Core Web API with Layered Architecture
+
+##  Topics Covered
+- ASP.NET Core Web API (Controllers)
+- Layered Architecture (Entity / Repository / Service / API)
+- Project References between .NET Class Libraries
+- Solution (.sln) structure for multi-project apps
+- ADO.NET inside a Web API (Microsoft.Data.SqlClient)
+
+##  Practical Implementation
+Scaffolded a basic ASP.NET Core Web API project and restructured it into separate layers.
+
+
+### Layer Dependency Flow
+
+API → Service → Repository → Entities
+
+
+
+
+
 
 
 
