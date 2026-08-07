@@ -1,0 +1,16 @@
+C:\Users\91905\OneDrive\Documents\Desktop\Refresher-Training\RefresherTraining\Day-5\HealthClinic.Repository\bin\Debug\net10.0\HealthClinic.Repository.deps.json
+C:\Users\91905\OneDrive\Documents\Desktop\Refresher-Training\RefresherTraining\Day-5\HealthClinic.Repository\bin\Debug\net10.0\HealthClinic.Repository.dll
+C:\Users\91905\OneDrive\Documents\Desktop\Refresher-Training\RefresherTraining\Day-5\HealthClinic.Repository\bin\Debug\net10.0\HealthClinic.Repository.pdb
+C:\Users\91905\OneDrive\Documents\Desktop\Refresher-Training\RefresherTraining\Day-5\HealthClinic.Repository\bin\Debug\net10.0\HealthClinic.Entities.dll
+C:\Users\91905\OneDrive\Documents\Desktop\Refresher-Training\RefresherTraining\Day-5\HealthClinic.Repository\bin\Debug\net10.0\HealthClinic.Entities.pdb
+C:\Users\91905\OneDrive\Documents\Desktop\Refresher-Training\RefresherTraining\Day-5\HealthClinic.Repository\obj\Debug\net10.0\HealthClinic.Repository.csproj.AssemblyReference.cache
+C:\Users\91905\OneDrive\Documents\Desktop\Refresher-Training\RefresherTraining\Day-5\HealthClinic.Repository\obj\Debug\net10.0\HealthClinic.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91905\OneDrive\Documents\Desktop\Refresher-Training\RefresherTraining\Day-5\HealthClinic.Repository\obj\Debug\net10.0\HealthClinic.Repository.AssemblyInfoInputs.cache
+C:\Users\91905\OneDrive\Documents\Desktop\Refresher-Training\RefresherTraining\Day-5\HealthClinic.Repository\obj\Debug\net10.0\HealthClinic.Repository.AssemblyInfo.cs
+C:\Users\91905\OneDrive\Documents\Desktop\Refresher-Training\RefresherTraining\Day-5\HealthClinic.Repository\obj\Debug\net10.0\HealthClinic.Repository.csproj.CoreCompileInputs.cache
+C:\Users\91905\OneDrive\Documents\Desktop\Refresher-Training\RefresherTraining\Day-5\HealthClinic.Repository\obj\Debug\net10.0\HealthClinic.Repository.sourcelink.json
+C:\Users\91905\OneDrive\Documents\Desktop\Refresher-Training\RefresherTraining\Day-5\HealthClinic.Repository\obj\Debug\net10.0\HealthCl.312EF4A4.Up2Date
+C:\Users\91905\OneDrive\Documents\Desktop\Refresher-Training\RefresherTraining\Day-5\HealthClinic.Repository\obj\Debug\net10.0\HealthClinic.Repository.dll
+C:\Users\91905\OneDrive\Documents\Desktop\Refresher-Training\RefresherTraining\Day-5\HealthClinic.Repository\obj\Debug\net10.0\refint\HealthClinic.Repository.dll
+C:\Users\91905\OneDrive\Documents\Desktop\Refresher-Training\RefresherTraining\Day-5\HealthClinic.Repository\obj\Debug\net10.0\HealthClinic.Repository.pdb
+C:\Users\91905\OneDrive\Documents\Desktop\Refresher-Training\RefresherTraining\Day-5\HealthClinic.Repository\obj\Debug\net10.0\ref\HealthClinic.Repository.dll
