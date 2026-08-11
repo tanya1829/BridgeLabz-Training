@@ -132,7 +132,54 @@ Scaffolded a basic ASP.NET Core Web API project and restructured it into separat
 API → Service → Repository → Entities
 
 
+# Day 6 – ASP.NET Core MVC: Greetings App
 
+##  Topics Covered
+- ASP.NET Core MVC (Model, View, Controller)
+- Routing 
+- Reading configuration values from `appsettings.json`
+- Basic CSS styling (external stylesheet)
+- Button click / form submission (HTTP POST)
+
+##  Practical Implementation
+Built a simple MVC web app where clicking a button displays a welcome message — with the message pulled from configuration instead of being hardcoded.
+
+###  Project Structure
+- **Models** – `GreetingModel` (holds the message text)
+- **Controllers** – `GreetingsController` (handles button click, reads message from config)
+- **Views** – `Greetings/Index.cshtml` (button + conditional message display)
+- **wwwroot/css/site.css** – page styling
+
+# Day 7 – Contacts App Backend (Minimal APIs)
+
+##  Topics Covered
+- ASP.NET Core Minimal APIs
+- Layered structure without Controllers (Model / Repository / Program)
+- CRUD operations via HTTP endpoints (GET, POST, PUT, DELETE)
+- ADO.NET (Microsoft.Data.SqlClient) with SQL Server
+- Testing APIs using Thunder Client / Postman
+
+##  Practical Implementation
+Built a Contacts App backend using ASP.NET Core Minimal APIs — no Controllers, endpoints defined directly in `Program.cs`, backed by a real SQL Server database (no in-memory storage).
+
+### Project Structure
+- **Models** – `Contact.cs` (plain data class)
+- **Repository** – `ContactRepository.cs` (all database access via ADO.NET)
+- **Program.cs** – Minimal API endpoints, calling the repository directly
+
+### Database
+Created a  `ContactsDB` database  with a single `Contact` table (`ContactId`, `Name`, `Phone`, `Email`).
+
+### Tasks Completed
+-  Scaffolded a Minimal API project (`dotnet new web`)
+-  Created `ContactsDB` database and `Contact` table in SSMS
+-  Built `ContactRepository` with `GetAll`, `Add`, `Update`, `Delete` methods
+-  Implemented Minimal API endpoints:
+  - `GET /contacts` – view all contacts
+  - `POST /contacts` – add a new contact
+  - `PUT /contacts/{id}` – update an existing contact
+  - `DELETE /contacts/{id}` – delete a contact
+-  Organized code into `Models` and `Repository` folders with matching namespaces
 
 
 
