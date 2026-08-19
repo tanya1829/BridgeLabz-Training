@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/BusinessLayer/">
+    <Project Path="BusinessLayer/FundooNotesApp.Business.csproj" />
+  </Folder>
+  <Folder Name="/ModelLayer/">
+    <Project Path="ModelLayer/FundooNotesApp.Models.csproj" />
+  </Folder>
+  <Folder Name="/RepositoryLayer/">
+    <Project Path="RepositoryLayer/FundooNotesApp.Repository.csproj" />
+  </Folder>
+  <Project Path="FundooNotesApp.API/FundooNotesApp.API.csproj" />
+</Solution>
